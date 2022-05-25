@@ -1,3 +1,8 @@
+"""
+remove all zeros to the end of array without effecting the order of other numbers
+"""
+
+
 def move_zeros(array):
     for i in range(len(array)):
         if array[i] == 0:
